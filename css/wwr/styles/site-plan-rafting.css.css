@@ -14,13 +14,13 @@
   --nav-hover-link-color: #XXXXXX;
   --nav-hover-background-color: #XXXXXX;
 }
-        
+
 body {
   f______: var(--paragraph-font);
   m______: ______;
   p______: ______;
 }
-        
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
