@@ -1,8 +1,9 @@
 
 nav a{
-  color:steelblue;
+  color:white;
   padding: 10px;
   display: block;
+  background-color: steelblue;
 }
 h1{
   color: steelblue;
