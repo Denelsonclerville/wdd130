@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
-
 :root {
   --primary-color: #XXXXXX;
   --secondary-color: #XXXXXX;
@@ -17,8 +16,8 @@
 
 body {
   f______: var(--paragraph-font);
-  m______: ______;
-  p______: ______;
+  m______: var(96opx);
+  p______: var(20px);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,7 +33,7 @@ header {
 p {
   padding: 25px;
 }
-e)
+
 nav {
   background-color: var(--nav-background-color);
   font-size: 1.2rem;
