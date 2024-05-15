@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    max-width: 960px;
+    padding: 20px;
+  }
+  
+  
+  header {
+    padding: 20px;
+  }
+  
+  nav {
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: steelblue;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: pink;
+  }
+  
+  nav a:hover {
+    color: gray;
+    background-color: azure;
+  }
+  
+  
+  
+  
+  
+  
