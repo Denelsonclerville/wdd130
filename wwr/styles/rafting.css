@@ -6,7 +6,7 @@
  }
 
 
-main h1{
+.hero h1{
   position:absolute;
   padding: 1rem;
   background-color: aqua;
@@ -25,4 +25,4 @@ background-color: blue;
   margin-top: 1em;
   border: top 1px;
   text-align: center ;
-}re
+}
