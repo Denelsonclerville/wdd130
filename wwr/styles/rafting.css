@@ -8,10 +8,16 @@
 
 .hero h1{
   position: absolute;
+      top: 65px;
+      left: 200px
 }
-.hero article{
+.hero article img{
   position: absolute;
   float: right;
+}
+.hero article p{
+position: absolute;
+
 }
 
 header.nav a{
