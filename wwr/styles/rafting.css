@@ -24,7 +24,11 @@
   position: absolute;
   float: right;
   width: 200px;
-  height: aut
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+  margin:0 0 1rem 
 }
 
 .hero article p{
