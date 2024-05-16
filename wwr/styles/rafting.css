@@ -10,9 +10,8 @@
   margin: 10rem;
   padding: 10rem;
   background-color: #eee;
-  width: 20rem;
+  width: 100rem;
   border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
-  background-color: #eee;
   color: #333;
   text-align: center;
    position: relative;
