@@ -13,7 +13,7 @@
   background-color: #eee;
   color: #000;
 } 
-}
+
 .hero h1{
       top: 65px;
       left: 200px
@@ -24,21 +24,8 @@
 }
 .hero article p{
 position: absolute;
-
 }
+ section img{
+  display: block;
+ }
 
-header.nav a{
-display: inline;
-}
-
-
-header{
-  grid-template-columns: 120px 1fr 2fr;
-  align-items: center;
-  border-bottom: 1px solid #ccc;
-  max-width: 1000px;
-}
-
-h1{
- position: absolute;   
-}
