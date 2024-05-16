@@ -7,8 +7,8 @@
 }
 
 .hero{
-  margin: 1rem;
-  padding: 1rem;
+  margin: 10rem;
+  padding: 10rem;
   background-color: #eee;
   width: 20rem;
   border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
