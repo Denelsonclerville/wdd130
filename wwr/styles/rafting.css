@@ -16,9 +16,11 @@
   color: #fff;;
 }
 .hero article img{
-  background-color: blue;
-  width: 200px;
-  }
+margin: 150px auto;
+max-width: 320px;
+width: 320px;
+width: 50%;
+}
 
 
 
