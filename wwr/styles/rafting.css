@@ -12,7 +12,7 @@
 .hero h1{
   position:absolute;
   padding: 1rem;
-  background-color: aqua;
+  top: 0;
   color: #fff;;
 }
 .hero article image{
@@ -29,10 +29,10 @@
 
 
 .hero article p{
-  display: grid;
-padding: absolute;
+position: absolute;
 text-align: center;
 background-color: blue;
+top: 25;
 }
 
 
