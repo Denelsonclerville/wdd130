@@ -16,10 +16,13 @@
   color: #fff;;
 }
 .hero article img{
+  position: absolute;
+  float: right;
 margin: 150px auto;
 max-width: 320px;
 width: 320px;
 width: 50%;
+
 }
 
 
