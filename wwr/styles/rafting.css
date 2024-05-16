@@ -8,16 +8,22 @@
 
 .hero{
   margin: 1rem;
-  border: 1px solid rgba(0,0,0,.1);
   padding: 1rem;
   background-color: #eee;
-  color: #000;
-} 
+  width: 20rem;
+  border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+   position: relative;
+  }
+
 
 .hero h1{
   padding: absolute;
       top: 65px;
       left: 200px
+
 }
 
  article img{

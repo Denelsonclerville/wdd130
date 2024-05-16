@@ -36,6 +36,7 @@
       background-color: #eee;
       color: #333;
       text-align: center;
+      position: relative;
     }
     
     main{
@@ -52,12 +53,7 @@
       margin:0 0 1rem 1rem;
     }
     
-    aside{
-      width: 20em;
-      text-align: center;
-      position: relative;
-    }
-    
+
     aside img{
     width: 200px;
     height: auto;
