@@ -14,6 +14,8 @@ main h1{
 
 .hero article p{
 position: absolute;
+text-align: center;
+background-color: blue;
 }
  section img{
   display: block;
