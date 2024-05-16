@@ -9,6 +9,10 @@
 .hero h1{
   position: absolute;
 }
+.hero article{
+  position: absolute;
+  float: right;
+}
 
 header.nav a{
 display: inline;
