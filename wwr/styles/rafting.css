@@ -3,13 +3,15 @@
   padding: 1rem;
   background-color: #eee;
   position: relative;
-
-  }
+ }
 
 
 .hero h1{
-  position:
+  position:absolute;
+  padding: 1rem;
+  background-color: aqua;
 }
+
 .hero article p{
 position: absolute;
 }
@@ -21,4 +23,4 @@ position: absolute;
   margin-top: 1em;
   border: top 1px;
   text-align: center ;
-}
+}re
