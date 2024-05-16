@@ -27,6 +27,7 @@
 
 
 .hero article p{
+  display: grid;
 padding: absolute;
 text-align: center;
 background-color: blue;
