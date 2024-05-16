@@ -1,9 +1,3 @@
-.hero img {
-  display: grid;
-  width: 100%;
-  height: auto; 
-  position: relative; 
-}
 
 .hero{
   margin: 10rem;
