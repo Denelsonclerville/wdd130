@@ -16,12 +16,13 @@
   color: #fff;;
 }
 .hero article img{
-  position: absolute;
-  float: right;
+position: absolute;
+float: right;
 margin: 150px auto;
 max-width: 320px;
 width: 320px;
 width: 50%;
+top: 25%;
 
 }
 
@@ -46,6 +47,6 @@ padding: 20px;
   text-align: center ;
 }
 
-.sociallinks {
+.social {
   font-size: 70px;
 }
