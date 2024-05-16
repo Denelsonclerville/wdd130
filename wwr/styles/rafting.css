@@ -15,13 +15,18 @@
 } 
 
 .hero h1{
+  padding: absolute;
       top: 65px;
       left: 200px
 }
+
 .hero article img{
   position: absolute;
   float: right;
+  width: 200px;
+  height: aut
 }
+
 .hero article p{
 position: absolute;
 }
