@@ -10,18 +10,24 @@
 .hero h1{
   position: absolute;
       top: 65px;
-
 }
+
+body{
+  margin: 0px;
+  height: 100%;
+  background-color: rgb(14, 14, 14);
+}  
 
  article img{
   position: absolute;
-  width: 200px;
-  height: auto;
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
-  margin:0 0 1rem;
   text-align: center;
+  width: 600px;
+  aspect-ratio: auto 600 / 1676;
+  display: block;
+  margin: auto
 
 }
 
