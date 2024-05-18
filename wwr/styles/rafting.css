@@ -30,7 +30,7 @@ top: 25%;
 .hero p{
 position: absolute;
 text-align: center;
-background-color: blue;
+background-color: rgba(60, 60, 158, 0.205);
 top: 25%;
 padding: 20px;
 }
@@ -44,13 +44,11 @@ padding: 20px;
  }
 
  footer {
-  margin-top: 1em;
-  border: top 1px;
   text-align: center ;
 }
 
 .social {
   font-size: 70px;
   max-width: 320px;
- width: 5%;
+  width: 5%;
 }
