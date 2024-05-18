@@ -38,6 +38,9 @@ padding: 20px;
 
  section img{
   display: block;
+  width: 1000px;
+  height: 400px;
+  object-fit: cover;
  }
 
  footer {
