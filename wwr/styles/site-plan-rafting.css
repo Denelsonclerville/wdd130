@@ -26,6 +26,7 @@ body {
     font-size: 1.2rem;
     display: flex;
   }
+
   main{
     width: fit-content;
     height: 100%;
@@ -61,6 +62,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 150px;
     background-color: silver;
   } 
+
   footer{
     text-align: center;
+    width: fit-content;
   }
