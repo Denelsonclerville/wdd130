@@ -20,7 +20,9 @@
     color: steelblue;
     padding: 1rem;
     }
-    
+    body {
+      font-size: 16px;
+    }
     
     p{
      padding: 0;
@@ -44,7 +46,7 @@
     }
     
       main img {
-      width: 200px;
+      width: 150px;
       height: auto;
       border: 1px solid steelblue;
       padding: 2px;
@@ -60,7 +62,7 @@
     }
     
     aside h2{
-      position: absolute;
+      padding: absolute;
       top: 65px;
       left: 200px;
     
@@ -79,5 +81,4 @@
         border: top 1px;
         text-align: center ;
     }
-    
-    .
+  
