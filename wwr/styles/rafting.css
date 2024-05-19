@@ -35,6 +35,12 @@ top: 25%;
 padding: 20px;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
 
  section img{
   display: block;
@@ -47,7 +53,7 @@ padding: 20px;
   text-align: center ;
 }
 
-.social {
+.sociallinks {
   font-size: 70px;
   max-width: 320px;
   width: 5%;
