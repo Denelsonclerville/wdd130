@@ -62,9 +62,9 @@
     }
     
     aside h2{
-      padding: absolute;
+      position: absolute;
       top: 65px;
-      left: 200px;
+      left: 150px;
     
     }
     
@@ -73,7 +73,7 @@
       border: 1px solid rgba(0,0,0,-1);
       padding: 1rem;
       background-color: #eee;
-      color: #333;
+      color: black;
     }
     
     footer {
