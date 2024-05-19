@@ -1,6 +1,19 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-  
+
+:root {
+  --primary-color: rgb(23, 214, 248);
+  --secondary-color: #d7e8baff;
+  --text-color: rgb(76, 196, 116);
+  --accent1-color: #ddd;
+  --accent2-color: #ccc;
+  --heading-font: 'Roboto', serif;
+  --paragraph-font: 'Roboto', serif;
+  --nav-background-color: #eee;
+  --nav-link-color: rgb(0,0,.0,25);
+  --nav-hover-link-color: #fdfdfd;
+  --nav-hover-background-color: #c4c4c4;
+}
   /* Body styles */
 body {
   width: 200px;
