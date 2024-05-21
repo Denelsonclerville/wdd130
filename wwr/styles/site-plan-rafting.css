@@ -1,69 +1,64 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Import selected fonts from Google Fonts API */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --primary-color: rgb(23, 214, 248);
-  --secondary-color: #d7e8baff;
-  --text-color: rgb(76, 196, 116);
-  --accent1-color: #ddd;
-  --accent2-color: #ccc;
-  --heading-font: 'Roboto', serif;
-  --paragraph-font: 'Roboto', serif;
-  --nav-background-color: #eee;
-  --nav-link-color: rgb(0,0,.0,25);
-  --nav-hover-link-color: #fdfdfd;
-  --nav-hover-background-color: #c4c4c4;
+  --primary-color: #ffa630;
+  --secondary-color: #d7e8ba;
+  --accent1-color: #4da1a9;
+  --accent2-color: #0cdef1;
+  --additional-accent-color: #2e5077;
+  --heading-font: 'Roboto', sans-serif;
+  --paragraph-font: 'Times New Roman', serif;
+  --nav-background-color: #0f8bd3;
+  --nav-link-color: #ffffff;
+  --nav-hover-link-color: #2e5077;
+  --nav-hover-background-color: #0a90e9;
 }
-  /* Body styles */
-body {
-  width: 200px;
-  font-family: 'Roboto', sans-serif;
-  color: var(--text-color);
-  margin: 0;
-  padding: 0;
+
+
+/* Apply font families to different elements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
 }
+
+p {
+  font-family: var(--paragraph-font);
+  padding: 25px;
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+  header {
+    padding: 20px; 
+    background-color: var(--secondary-color); /*secondary color variable */
+  }
+
+  /* Define CSS variables for font families */
+
+
   nav {
+    background-color: var(--nav-background-color); /* Use the navigation background color variable */
     font-size: 1.2rem;
     display: flex;
   }
-
-  main{
-    width: fit-content;
-    height: 100%;
-  }
-
-p {
-  padding: 25px;
-}
-  nav a {
-    display: block;
-    color: steelblue;
-    text-decoration: none;
-    padding: 1rem;
-    color: #000;
-  }
   
-  nav a:link, nav a:visited {
-    color: #c13584;
+  nav a {
+    color: var(--nav-link-color); /* Use the navigation link color variable */
+    text-decoration: none; /* Remove underline from links */
+    padding: 1rem;
+    display: block;
   }
   
   nav a:hover {
-    color: gray;
-    background-color: azure;
+    color: var(--nav-hover-link-color); /* Use the navigation hover link color variable */
+    background-color: var(--nav-hover-background-color); /* Use the navigation hover background color variable */
   }
-  
-  
-h1, h2, h3, h4, h5, h6 {
-    font-family: sans-serif;
-    color: gray;
-  } 
-  
- header {
-    padding: 6%;
-    background: silver;
-  } 
 
-  footer{
-    text-align: center;
-    width: fit-content;
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
   }
+  
