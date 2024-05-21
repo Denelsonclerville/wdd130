@@ -58,7 +58,7 @@ main {
 }
 
 .hero img {
-  display: block;
+  display: inline;
   width: 100%;
   height: auto;
 }
