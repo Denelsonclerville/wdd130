@@ -42,7 +42,8 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 8%;
+    margin: 100px;
+    padding: auto;
 }
 
 /* Hover effect for nav links */
