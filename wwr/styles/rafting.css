@@ -3,9 +3,9 @@
 
 /* Define CSS variables */
 :root {
-    --primary-color: rgb(23, 214, 248);
+    --primary-color: rgb(52, 107, 117);
     --secondary-color: #d7e8ba;
-    --text-color: rgb(76, 196, 116);
+    --text-color: rgb(116, 168, 134);
 }
 
 /* Body styles */
@@ -117,7 +117,7 @@ section h2 {
 }
 
 .adventures figure {
-  background: linear-gradient(135deg, #090892, #0f52ba);
+  background: linear-gradient(135deg, #9292ad, #9199a5);
   color: #fff;
   font-size: 14px;
   padding: 0.5em;
@@ -128,7 +128,7 @@ section h2 {
 }
 
 .archives img {
-  background: linear-gradient(135deg, #090892, #0f52ba);
+  background: linear-gradient(135deg, #573752, #3b4d68);
   color: #fff;
   padding: 0.5em;
   margin: 0;
