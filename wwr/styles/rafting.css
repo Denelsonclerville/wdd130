@@ -47,7 +47,7 @@ nav a {
 
 /* Hover effect for nav links */
 nav a:hover {
-    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+    background-color: 4px 4px 6px rgba(0, 0, 0, 0.7);
 }
 
 /* Main styles */
