@@ -15,5 +15,80 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
 
+.Contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff; 
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .ContactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .ContactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .ContactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 22px;
+}
+
+.container .ContactInfo .box .text {
+  display: flex; 
+   margin-left: 20px;
+   font-size: 16px;
+   color: #fff;
+   flex-direction: column;
+   font-weight: 300;
+}
+
+container .ContactInfo .box .text h3 {
+    font-weight: 300;
+    color: #00bcd4;
+}
+
+.ContactForm {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.ContactForm  h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.Contact .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.ContactForm .inputBox  input {
+width: 100%;
+padding: 5% 0;
+font-size: 16px;
+margin: 10px;
+border: none;
+border-bottom: 2px solid #33;
 }
