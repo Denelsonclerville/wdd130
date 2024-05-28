@@ -5,6 +5,19 @@
     font-size: sans-serif;
 }
 
+nav a {
+    color: #ffffff; /* Use the navigation link color variable */
+    text-decoration: none; /* Remove underline from links */
+    padding: 1rem;
+    display: block;
+  }
+  
+  nav a:hover {
+    color:  #2e5077; /* Use the navigation hover link color variable */
+    background-color:#0a90e9 ; /* Use the navigation hover background color variable */
+  }
+
+
 .contact{
     min-height: 100vh;
     background-color: #e8f0fe;
