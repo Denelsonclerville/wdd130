@@ -105,6 +105,6 @@ resize: none;
     transition: 0.5s;
     color: #666;
 }
-.ContactForm .inputBox input[type="submit]"{
+.ContactForm .inputBox input[type="submit]" {
 width: 100px;
 }
