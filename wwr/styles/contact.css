@@ -78,17 +78,33 @@ container .ContactInfo .box .text h3 {
     font-weight: 500;
 }
 
-.Contact .inputBox {
+.ContactForm .inputBox {
     position: relative;
     width: 100%;
     margin-top: 10px;
 }
 
-.ContactForm .inputBox  input {
+.ContactForm .inputBox  input,textarea {
 width: 100%;
 padding: 5% 0;
 font-size: 16px;
 margin: 10px;
 border: none;
 border-bottom: 2px solid #3333;
+outline: none;
+resize: none;
+}
+
+.ContactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5% 0;
+    font-size: 16px;
+    margin: 10px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.ContactForm .inputBox input[type="submit]"{
+width: 100px;
 }
