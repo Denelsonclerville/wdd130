@@ -5,6 +5,11 @@
     font-size: sans-serif;
 }
 
+header {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: steelblue;
     padding: 1rem;
@@ -21,7 +26,7 @@ nav {
     font-weight: 700;
     color: #fff;
   }
-  
+
 .contact{
     min-height: 100vh;
     background-color: #e8f0fe;
