@@ -20,11 +20,13 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
+  padding: 0.9%;
+  margin: 0 auto;
 }
 
 p {
   font-family: var(--paragraph-font);
-  padding: 25px;
+  padding: 20px;
 }
 body{
     font-family: var(--paragraph-font);
@@ -33,7 +35,7 @@ body{
 }
 
   header {
-    padding: 20px; 
+    padding: 10px; 
     background-color: var(--secondary-color); /*secondary color variable */
   }
 
