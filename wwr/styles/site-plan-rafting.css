@@ -43,10 +43,15 @@ body{
 
 
   nav {
-    background-color: var(--nav-background-color); /* Use the navigation background color variable */
+     /* Use the navigation background color variable */
     font-size: 1.2rem;
     display: flex;
-  }
+    background-color: steelblue;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
   
   nav a {
     color: var(--nav-link-color); /* Use the navigation link color variable */
