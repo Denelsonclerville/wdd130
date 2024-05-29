@@ -37,7 +37,6 @@ header img {
 nav {
     display: flex;
     justify-content: flex-end;
-    background-color: steelblue;
     padding: 0;
     display: flex;
     justify-content: space-evenly;
@@ -47,7 +46,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 100px;
+    margin: 10px;
     padding: auto;
     display: block;
     padding: 0.5rem;
