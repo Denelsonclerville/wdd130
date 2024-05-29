@@ -24,11 +24,6 @@ header {
     padding: 10px;
 }
 
-.header-container {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-}
 
 header img {
     width: 150px;
