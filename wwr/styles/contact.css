@@ -49,10 +49,8 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 10px;
     display: block;
-    padding: 0.5rem auto;
-    text-decoration: none;
+    padding: 1rem;
     font-size: 1.2rem;
     font-weight: 700;
 }
