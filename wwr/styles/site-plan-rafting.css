@@ -48,7 +48,6 @@ body{
     display: flex;
     background-color: steelblue;
     padding: 0;
-    display: flex;
     justify-content: space-evenly;
     align-items: center;
     }
