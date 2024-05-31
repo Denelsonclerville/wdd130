@@ -265,7 +265,7 @@ textarea {
 
 button[type="submit"] {
     background-color: var(--secondary-color);
-    color: white;
+    color: black;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -336,7 +336,7 @@ figure.our-office img {
 
 .cta-button {
     background-color: var(--secondary-color);
-    color: white;
+    color: steelblue;
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
@@ -407,7 +407,7 @@ figure.our-office img {
 .newsletter {
     text-align: center;
     padding: 20px;
-    background-color: white;
+    background-color: black;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -442,7 +442,7 @@ figure.our-office img {
 }
 
 .grid-item {
-    background-color: white;
+    background-color: black;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
