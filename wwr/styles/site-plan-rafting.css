@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --primary-color: #ffa630;
-  --secondary-color: #d7e8ba;
+  --primary-color: black;
+  --secondary-color: #3623e7;
   --accent1-color: #4da1a9;
   --accent2-color: #0cdef1;
   --additional-accent-color: #2e5077;
   --heading-font: 'Roboto', sans-serif;
   --paragraph-font: 'Times New Roman', serif;
   --nav-background-color: #0f8bd3;
-  --nav-link-color: #333;
+  --nav-link-color: #dfee15;
   --nav-hover-link-color: #2e5077;
   --nav-hover-background-color: #0a90e9;
 }
