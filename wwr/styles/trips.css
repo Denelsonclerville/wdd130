@@ -24,6 +24,11 @@ header {
     padding: 10px;
 }
 
+.header-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
 
 header img {
     width: 150px;
@@ -34,7 +39,6 @@ nav {
     display: flex;
     justify-content: flex-end;
     padding: 0;
-    display: flex;
     justify-content: space-evenly;
     align-items: cent
 }
@@ -47,7 +51,6 @@ nav a {
     margin: 10px;
     display: block;
     padding: 0.5rem auto;
-    text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
 }
