@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --primary-color: black;
+  --primary-color: #333;
   --secondary-color: #3623e7;
   --accent1-color: #4da1a9;
   --accent2-color: #0cdef1;
@@ -10,7 +10,7 @@
   --heading-font: 'Roboto', sans-serif;
   --paragraph-font: 'Times New Roman', serif;
   --nav-background-color: #0f8bd3;
-  --nav-link-color: #dfee15;
+  --nav-link-color: #000;
   --nav-hover-link-color: #2e5077;
   --nav-hover-background-color: #0a90e9;
 }
