@@ -53,7 +53,7 @@ body{
     }
   
   nav a {
-    color: black; /* Use the navigation link color variable */
+    color: #333; /* Use the navigation link color variable */
     text-decoration: none; /* Remove underline from links */
     padding: 1rem;
     display: block;

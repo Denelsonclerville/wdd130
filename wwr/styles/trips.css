@@ -20,7 +20,7 @@ body {
 /* Header styles */
 header {
     background-color: var(--primary-color);
-    color: black;
+    color: #333;
     padding: 10px;
 }
 
