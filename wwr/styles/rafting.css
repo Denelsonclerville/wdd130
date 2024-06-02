@@ -3,15 +3,15 @@
 
 /* Define CSS variables */
 :root {
-    --primary-color: rgb(52, 107, 117);
-    --secondary-color: #d7e8ba;
+    --primary-color: steelblue;
+    --secondary-color: #333;
     --text-color: rgb(116, 168, 134);
 }
 
 /* Body styles */
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--text-color);
+    color: var(--secondary-color);
     margin: 0;
     padding: 0;
 }
@@ -138,7 +138,7 @@ section h2 {
 
 .archives img {
   background: linear-gradient(135deg, #573752, #3b4d68);
-  color: #fff;
+  color: var(--secondary-color);
   padding: 0.5em;
   margin: 0;
   border-radius: 8px;
@@ -154,7 +154,7 @@ section h2 {
 }
 
 .archives h2 {
-    grid-column: 1 / -1;
+    grid-column: 1 -1;
     text-align: center;
 }
 
@@ -171,7 +171,7 @@ section h2 {
 /* Footer styles */
 footer {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--secondary-color);
     padding: 20px;
     text-align: center;
     display: flex;
