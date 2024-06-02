@@ -152,20 +152,11 @@ section h2 {
     gap: 20px;
 }
 
-.archives h2 {
-    grid-column: 1 / -1;
-    text-align: center;
-}
-
 .adventures img {
     width: 100%;
     height: auto;
 }
 
-.archives img {
-  width: 100%;
-  height: auto;
-}
 
 /* Footer styles */
 footer {
@@ -182,7 +173,7 @@ footer p {
     margin: 0;
 }
 footer a {
-    color: black;
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
