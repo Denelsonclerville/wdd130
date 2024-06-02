@@ -19,7 +19,6 @@ body {
 /* Header styles */
 header {
     background-color: var(--primary-color);
-    color: white;
     padding: 10px;
 }
 
@@ -56,7 +55,7 @@ nav a {
 
 /* Hover effect for nav links */
 nav a:hover {
-    background-color: 4px 4px 6px rgba(0, 0, 0, 0.7);
+    background-color: 4px 4px 6px rgb(24, 231, 34);
 }
 
 /* Main styles */
@@ -85,7 +84,7 @@ main {
     text-align: center;
     margin: 0;
     font-size: 3em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(197, 20, 88, 0.904);
 }
 
 .hero article {
@@ -126,8 +125,8 @@ section h2 {
 }
 
 .adventures figure {
-  background: linear-gradient(135deg, #9292ad, #9199a5);
-  color: #fff;
+  background: linear-gradient( steelblue);
+  color: var(--secondary-color);
   font-size: 14px;
   padding: 0.5em;
   margin: 0;
@@ -137,7 +136,7 @@ section h2 {
 }
 
 .archives img {
-  background: linear-gradient(135deg, #573752, #3b4d68);
+  background: linear-gradient(steelblue);
   color: var(--secondary-color);
   padding: 0.5em;
   margin: 0;
