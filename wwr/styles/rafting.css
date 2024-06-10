@@ -171,15 +171,17 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 1px dotted #000;
+    margin-bottom: 10px;
 }
 
 footer p {
-    margin: 0;
+    margin: 1px;
+    font-weight: bold;
 }
-footer a {
-    color: var(--secondary-color);
-    text-decoration: none;
-}
+footer p a{
+    color: rgb(212, 30, 121);
+}   
 
 .sociallinks {
     display: flex;
@@ -195,4 +197,10 @@ footer a {
 .sociallinks img {
     width: 18px;
     height: 18px;
+}
+.sociallinks a:hover{
+color: azure;
+background: #999;
+transition: all 0.4s ease-in-out;
+
 }
