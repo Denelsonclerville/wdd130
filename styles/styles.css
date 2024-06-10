@@ -111,6 +111,10 @@
 
   .grid ul li a{
     text-decoration: none;
+  }
+
+
+  .grid ul{
     list-style: none;
     background: none;
   }
