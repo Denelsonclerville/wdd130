@@ -92,6 +92,8 @@
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+    color: #fff;
+    background-color: steelblue;
   }
   
   .grid {
@@ -106,4 +108,9 @@
     top: -8px;
     left: 100px;
   }
-  
+
+  .grid ul li a{
+    text-decoration: none;
+    list-style: none;
+    background: none;
+  }
