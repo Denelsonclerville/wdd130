@@ -8,10 +8,10 @@
   --accent2-color: #0cdef1;
   --additional-accent-color: #2e5077;
   --heading-font: 'Roboto', sans-serif;
-  --paragraph-font: 'Times New Roman', serif;
+  --paragraph-font: 'Comic Sans MS',cursive, sans-serif serif;
   --nav-background-color: #0f8bd3;
   --nav-link-color: #000;
-  --nav-hover-link-color: #2e5077;
+  --nav-hover-link-color: #b81c1c0c;
   --nav-hover-background-color: #0a90e9;
 }
 
@@ -64,7 +64,8 @@ body{
     background-color: var(--nav-hover-background-color); /* Use the navigation hover background color variable */
   }
 
-  nav a:link, nav a:visited {
+  nav a:link,
+  nav a:visited {
     color: var(--nav-link-color);
   }
   
