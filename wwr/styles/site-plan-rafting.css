@@ -70,4 +70,12 @@ header h1, h2,{
   nav a:visited {
     color: var(--nav-link-color);
   }
-  
+
+  footer {
+    margin-top: 15px;
+    border-top: 1px dotted #000;
+    text-align: center;
+    color: #fff;
+    background-color: steelblue;
+  }
+   
