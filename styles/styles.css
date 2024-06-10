@@ -90,7 +90,7 @@
   
   footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px dotted #000;
     text-align: center;
     color: #fff;
     background-color: steelblue;
