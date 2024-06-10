@@ -1,4 +1,8 @@
 {
-    "editor.defaultFormatter": "yandeu.five-server",
-    "editor.defaultFoldingRangeProvider": "yandeu.five-server"
+    "editor.defaultFormatter": null,
+    "editor.defaultFoldingRangeProvider": null,
+    "extensions.webWorker": true,
+    "remote.downloadExtensionsLocally": true,
+    "markdown.trace.extension": "verbose",
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true
 }
