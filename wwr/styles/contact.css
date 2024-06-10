@@ -9,7 +9,7 @@
 }
 
 /* Body styles */
-body {
+html,body {
     font-family: "Comic Sans MS",cursive, sans-serif;
     color: var(--text-color);
     margin: 0;
