@@ -40,9 +40,8 @@ header img {
 
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     padding: 0;
-    justify-content: space-evenly;
     align-items: center;
 }
 
