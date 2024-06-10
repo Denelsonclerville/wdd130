@@ -1,4 +1,4 @@
 {
-    "editor.defaultFormatter": null,
-    "editor.defaultFoldingRangeProvider": null
+    "editor.defaultFormatter": "yandeu.five-server",
+    "editor.defaultFoldingRangeProvider": "yandeu.five-server"
 }
