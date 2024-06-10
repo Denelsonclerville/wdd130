@@ -62,7 +62,7 @@ header h1, h2,{
   }
   
   nav a:hover {
-    color: var(--nav-hover-link-color); /* Use the navigation hover link color variable */
+    color: #fff; /* Use the navigation hover link color variable */
     background-color: var(--nav-hover-background-color); /* Use the navigation hover background color variable */
   }
 
