@@ -38,7 +38,7 @@ body{
     padding: 10px; 
     background-color: var(--secondary-color); /*secondary color variable */
   }
-header h1, h2{
+header h1, h2,{
   text-align: center;
 }
   /* Define CSS variables for font families */
