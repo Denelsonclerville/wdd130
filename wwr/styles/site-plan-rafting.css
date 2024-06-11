@@ -10,7 +10,7 @@
   --heading-font: 'Roboto', sans-serif;
   --paragraph-font: 'Comic Sans MS',cursive, sans-serif serif;
   --nav-background-color: #0f8bd3;
-  --nav-link-color: #000;
+  --nav-link-color: #e225258e;
   --nav-hover-link-color: #b81c1c0c;
   --nav-hover-background-color: #0a90e9;
 }
@@ -66,8 +66,7 @@ header h1, h2,{
     background-color: var(--nav-hover-background-color); /* Use the navigation hover background color variable */
   }
 
-  nav a:link,
-  nav a:visited {
+  a:visited{
     color: var(--nav-link-color);
   }
 
