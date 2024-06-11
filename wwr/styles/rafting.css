@@ -76,7 +76,7 @@ main {
     text-align: center;
     margin: 0;
     font-size: 3em;
-    text-shadow: 2px 2px 4px rgba(197, 20, 88, 0.904);
+    text-shadow: 2px 2px 4px #473f4281;
 }
 
 .hero article {
@@ -117,14 +117,13 @@ section h2 {
 }
 
 .adventures figure {
-  background: linear-gradient( steelblue);
   color: var(--secondary-color);
   font-size: 14px;
   padding: 0.5em;
   margin: 0;
   text-align: center;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0 0 0 / 69%);
 }
 
 .archives img {
