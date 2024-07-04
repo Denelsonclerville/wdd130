@@ -82,7 +82,8 @@ header h1, h2{
 
 .Palette{
   display: grid;
-  grid-template-columns: repeat(2, 1rem);
+  grid-template-columns: repeat(2, 20px);
+  grid-area: row;
 }
   footer {
     margin-top: 15px;
