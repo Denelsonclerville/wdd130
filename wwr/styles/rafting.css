@@ -26,27 +26,24 @@ body {
 
 
 .rafting-logo {
-    width: 100px;
-    flex: 1 1 40rem;
+    width: 80px;
+    position: absolute;
+    top: 2.5%
 }
 
 nav {
-    min-height: 10vh;
-    display: flex;
-    align-items: center;
-    width: 90x;
-    margin: auto;
-    padding: 2eem;
-    
-      }
-
-nav ul {
-    display: flex;
+    display:flex;
     justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-      }
+    align-items:center;
+    }
 
+ul  li {
+        list-style: none;
+        display: inline;
+        margin: 60px
+          }     
+ul li a{
+            text-decoration: none;
 /* Hover effect for nav links */
 nav a:hover {
     background-color: 4px 4px 6px rgb(24, 231, 34);
