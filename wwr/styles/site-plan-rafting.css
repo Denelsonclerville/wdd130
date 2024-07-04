@@ -73,12 +73,16 @@ header h1, h2{
     color: var(--nav-link-color);
   }
 
-.wireframe{
-  justify-content: center;
-  align-items: center;
-  margin: 0 20%;
-  margin-left: 20px;
-}
+  .wireframe{
+    justify-content: center;
+    align-items: center;
+    margin: 0 20%;
+    margin-left: 60px;
+    max-width: 90%;
+  }
+  .wireframe h3{
+    text-decoration: underline;
+  }
 
 .Palette{
   display: grid;
