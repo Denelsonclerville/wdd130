@@ -36,7 +36,7 @@ body{
     color: #f1f1f1;;
 }
 
-  header {
+header {
     padding: 10px; 
     background-color: var(--secondary-color); /*secondary color variable */
   }
@@ -45,7 +45,7 @@ header h1, h2{
 }
   /* Define CSS variables for font families */
 
-  nav {
+ nav {
      /* Use the navigation background color variable */
     font-size: 1.2rem;
     display: flex;
@@ -77,6 +77,10 @@ header h1, h2{
   align-items: center;
 }
 
+.Palette{
+  display: grid;
+  grid-template-columns: repeat(2, 1rem);
+}
   footer {
     margin-top: 15px;
     border-top: 1px dotted #000;
