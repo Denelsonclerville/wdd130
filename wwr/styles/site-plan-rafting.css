@@ -54,7 +54,7 @@ header h1, h2{
     justify-content: space-evenly;
     align-items: center;
     margin: 0 20%;
-    margin-left: 20px
+    margin-left: 20px;
     }
   
   nav a {
@@ -72,9 +72,12 @@ header h1, h2{
   a:visited{
     color: var(--nav-link-color);
   }
+
 .wireframe{
   justify-content: center;
   align-items: center;
+  margin: 0 20%;
+  margin-left: 20px;
 }
 
 .Palette{
