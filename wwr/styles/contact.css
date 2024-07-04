@@ -18,6 +18,11 @@ html,body {
 }
 
 /* Header styles */
+.header-container {
+    background-color: var(--primary-color);
+    padding: 10px;
+    margin: 10px;
+}
 .rafting-logo {
     width: 80px;
     position: absolute;
