@@ -73,6 +73,10 @@ header h1, h2,{
   a:visited{
     color: var(--nav-link-color);
   }
+.wireframe{
+  justify-content: center;
+  align-items: center;
+}
 
   footer {
     margin-top: 15px;
