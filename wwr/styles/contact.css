@@ -31,14 +31,14 @@ html,body {
 
 nav {
     display:flex;
-    justify-content: space-evenly;
     align-items:center;
+    margin: auto;
     }
 
 ul  li {
         list-style: none;
         display: inline;
-        margin: 60px
+        justify-content: space-evenly;
           }     
 ul li a{
             text-decoration: none;
