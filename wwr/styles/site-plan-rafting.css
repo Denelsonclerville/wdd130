@@ -84,11 +84,6 @@ header h1, h2{
     text-decoration: underline;
   }
 
-.Palette{
-  display: grid;
-  grid-template-columns: repeat(2, 20px);
-  grid-area: row;
-}
   footer {
     margin-top: 15px;
     border-top: 1px dotted #000;
