@@ -43,82 +43,27 @@ ul  li {
 ul li a{
             text-decoration: none;
 }
-
+*{
+    max-width: 1000px;
+    display: flex;
+}
 
 /* Main styles */
-main {
-    max-width: 1200px;
-    margin: 0 20px;
-    padding: 2px;
+.box h1 {
+    text-align: center;
+    padding: 60px;
+    margin: 0 60px;
+    right:  100%;
 }
-.employee{
-    margin: 0 20%;
-    margin-left: 20px;
-    /* Employee section styles */
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    background-color: #fff;
-    padding:  0 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-}
-/* Hero section */
-.hero {
-    position: relative;
-    margin-bottom: 20px;
-}
-
-.hero img {
+.employee {
     display: block;
-    width: 100%;
-    height: auto;
+    margin: 0 20%
+    background-color: #f1f1f1ff;
+    padding:  0 20px;
+}
 }
 
-.hero h1 {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    margin: 0;
-    font-size: 3em;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-h1 {
-    text-align: center;
-    margin: 0;
-    font-size: 3em;
-    color: rgb(7, 79, 121);
-}
 
-.hero article {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    max-width: 300px;
-}
-
-.hero article img {
-    float: right;
-    width: 100px;
-    height: auto;
-    margin-left: 10px;
-}
-
-/* Section styles */
-section {
-    margin-bottom: 20px;
-}
-
-section h2 {
-    color: var(--secondary-color);
-    margin-bottom: 10px;
-}
 
 /* Adventures section */
 .adventures {
@@ -183,9 +128,7 @@ footer {
     flex-wrap: wrap;
 }
 
-footer p {
-    margin: 0;
-}
+
 
 .sociallinks {
     display: flex;
@@ -230,21 +173,21 @@ footer p {
 /* Map iframe styles */
 .contact-info iframe {
     position: absolute;
-    width: 100%;
+    width: 80%;
     height: 100%;
-    top: 0;
-    left: 0;
     border: 0;
+    margin-left: 60px;
 }
 
 .form-group {
-    margin: 20px 0;
+    margin: 20px auto;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-top: 50px;
     font-weight: bold;
+    margin: 0 20px;
 }
 
 input[type="text"],
