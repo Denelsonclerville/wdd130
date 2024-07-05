@@ -29,6 +29,7 @@ p {
   color: #000;
   margin:  0 10%;
   margin-left: 20px;
+  overflow: hidden;
 }
 body{
     font-family: var(--paragraph-font);
