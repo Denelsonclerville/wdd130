@@ -9,7 +9,7 @@ form {
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
-    background-color: ;
+    background-color: linear-gradient(#f1f1f1,#ffffff,#ffffff);
     border-radius: px;
     box-shadow: rgba(0, 0, 0, 0.425);
 }
