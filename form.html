@@ -13,22 +13,22 @@
 <h1>Formulaire</h1>
 
 <form action="submit_quiz.php" method="post">
-  <label for="q1">nom</label>
+  <label for="q1">nom *</label>
   <input type="text" id="q1" name="q1" placeholder=" tapez votre nom ici" required>
 
-  <label for="q2">Prenom</label>
+  <label for="q2">Prenom *</label>
   <input id="q2"name="q2"placeholder="tapez votre prenom ici" required></>
 
-  <label for="q1">email</label>
+  <label for="q1">email *</label>
   <input type="email" id="q1" name="q1" placeholder=" 12345678@gmail.com" required>
 
-  <label for="q1">mot_passe</label>
+  <label for="q1">mot_passe *</label>
   <input type="password" id="q1" name="q1" placeholder="********" required>
   
-  <label for="q1">confirmer</label>
+  <label for="q1">confirmer *</label>
   <input type="password" id="q1" name="q1" placeholder=" *******" required>
   
-  <label for="q3">Sexe</label>
+  <label for="q3">Sexe *</label>
   <select id="q3" name="q3" required>
     <option value="disabled">choissez</option>
     <option value="">trans</option>
@@ -39,15 +39,19 @@
     
   </select>
 
-  <label for="q4"> </label>
+  <label for="q4"> age *</label>
   <div class="container">
     <div class="content">
-        <p>margin: 10px 5px 15px;</p>
+        <p>seulement les chiffres </p>
     </div>
   </div>
-  <input type="number" id="q4" name="q4" min="0" max="20" placeholder="">
+  <input type="number" id="q4" name="q4" min="0" max="20" placeholder="votre age">
 
+  <label for="q1">occupation *</label>
+  <input type="radio" id="q7" name="q7"  value="">
 
+  <label for="q1">date *</label>
+  <input type="datetime-local" id="q7" name="q7"  value="">
 
   <button type="submit">Submit Quiz</button>
 </form>

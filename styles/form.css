@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f1ff1ffff;
+    background-color: #f1f1f1;
     margin: 0;
     padding: 0;
 }
@@ -9,14 +9,15 @@ form {
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #dfdddd;
-    border-radius: 7px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: ;
+    border-radius: px;
+    box-shadow: rgba(0, 0, 0, 0.425);
 }
 
 h1 {
     text-align: center;
     color: #333;
+    margin-right: 60px;
 }
 
 label {
@@ -28,14 +29,16 @@ input,
 textarea,
 select,
 input[type="number"] {
-    width: 100%;
+    width: 70%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    box-sizing: border-box;
+    border: 1px solid ;
+    border-radius: 3px;
+    box-sizing: 0 dotted;
 }
+input:focus{
 
+}
 button[type="submit"] {
     background-color:#0c52e9;
     color: white;
@@ -48,12 +51,15 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #0c52e9;
+    background-color: #ffffff;
+    color: #000;
+    transform: rotateY('30');
+    transition: 0.9s ;
 }
 
 label {
     display: block; /* To make sure label and div are on separate lines */
-    text-align: center; /* Center-align the label */
+    
 }
 
 .container {
