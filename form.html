@@ -10,24 +10,36 @@
 </head>
 <body>
 
-<h1>HTML and CSS Quiz</h1>
+<h1>Formulaire</h1>
 
 <form action="submit_quiz.php" method="post">
-  <label for="q1">What does the acronym CSS stand for?</label>
-  <input type="text" id="q1" name="q1" placeholder="" required>
+  <label for="q1">nom</label>
+  <input type="text" id="q1" name="q1" placeholder=" tapez votre nom ici" required>
 
-  <label for="q2">How are id and class attributes selected in CSS?</label>
-  <textarea id="q2" name="q2" rows="7" placeholder=""></textarea>
+  <label for="q2">Prenom</label>
+  <input id="q2"name="q2"placeholder="tapez votre prenom ici" required></>
 
-  <label for="q3">Which of the following is a valid CSS comment</label>
-  <select id="q3" name="q3">
-    <option value="" selected disabled>Choose One ...</option>
-    <option value="a">#this is a comment</option>
-    <option value="b">!--this is a comment--</option>
-    <option value="c">/*this is a comment*/</option>
+  <label for="q1">email</label>
+  <input type="email" id="q1" name="q1" placeholder=" 12345678@gmail.com" required>
+
+  <label for="q1">mot_passe</label>
+  <input type="password" id="q1" name="q1" placeholder="********" required>
+  
+  <label for="q1">confirmer</label>
+  <input type="password" id="q1" name="q1" placeholder=" *******" required>
+  
+  <label for="q3">Sexe</label>
+  <select id="q3" name="q3" required>
+    <option value="disabled">choissez</option>
+    <option value="">trans</option>
+    <option value="">hetero</option>
+    <option value="">homo</option>
+    <option value="">mas</option>
+    <option value="">fem</option>
+    
   </select>
 
-  <label for="q4">What is the bottom margin given this declaration</label>
+  <label for="q4"> </label>
   <div class="container">
     <div class="content">
         <p>margin: 10px 5px 15px;</p>

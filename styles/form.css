@@ -20,12 +20,11 @@ h1 {
 }
 
 label {
-    display: block;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
-input[type="text"],
+input,
 textarea,
 select,
 input[type="number"] {
@@ -38,7 +37,7 @@ input[type="number"] {
 }
 
 button[type="submit"] {
-    background-color: #1133af;
+    background-color:#0c52e9;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
