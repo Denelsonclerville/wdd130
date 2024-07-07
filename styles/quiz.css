@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: linear-gradient(-135deg, #71b7e6,#9b59b6);
+    background: linear-gradient(135deg, #71b7e6,#9b59b6);
     margin: 0;
     padding: 0;
 }
@@ -38,7 +38,7 @@ input[type="number"] {
 }
 
 button[type="submit"] {
-    background-color: inear-gradient(-135deg, #71b7e6);
+    background: linear-gradient(135deg, #71b7e6,#9b59b6);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;

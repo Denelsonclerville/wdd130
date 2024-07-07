@@ -1,44 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
-    margin: 0;
-    padding: 0;
+    background: #f1f1f1;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 10px;
+   
 }
 
 form {
-    max-width: 400px;
     margin: 20px auto;
     padding: 20px;
-    background-color: linear-gradient(#f1f1f1,#ffffff,#ffffff);
-    border-radius: px;
+    background: #f1f1f;
+    border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.425);
+    width: 100%;
+    max-width: 600px;
+    justify-content: end;
+    text-align: center;
 }
 
 h1 {
     text-align: center;
-    color: #333;
     margin-right: 60px;
+    padding-bottom: 6px;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: 3px solid #ffffff;
 }
 
 label {
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     font-weight: bold;
+    width: 50%;
+    margin: 4px 4px;
+    display: block;
 }
 
-input,
-textarea,
-select,
-input[type="number"] {
-    width: 70%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid ;
-    border-radius: 3px;
-    box-sizing: 0 dotted;
+strong {
+color: #f32626
 }
+
+input {
+    flex-direction: column;
+    padding: 0 15px;
+    border: 1px solid ;
+    border-radius: 7px;
+    height: 40px;
+    outline: none;
+    border: 1px solid grey;
+    margin-right: 35px;
+} 
+.a{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    margin: 10px 40px;
+
+}
+.box{
+    background: #fff ;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.box input{
+    position: absolute;
+    color: #f1f1f1;
+    width: 2%;
+    left: 60px;
+    
+}
+
+.box span{
+    display: block;
+    padding: 10px;
+    width: 100%;
+
+}
+
+
+.o,.d {
+    display: flex;
+    margin: 2px 2px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+input[type="radio"]{
+display: block;
+max-width: 3%;
+margin: 2px;
+padding: 0;
+}
+
+span{
+    display: flex;
+    margin: 3px 0;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
 input:focus{
 
 }
+
 button[type="submit"] {
     background-color:#0c52e9;
     color: white;
@@ -55,20 +127,4 @@ button[type="submit"]:hover {
     color: #000;
     transform: rotateY('30');
     transition: 0.9s ;
-}
-
-label {
-    display: block; /* To make sure label and div are on separate lines */
-    
-}
-
-.container {
-    display: flex;
-    justify-content: center; /* Center-align horizontally */
-    width: 200px; /* Set width */
-    height: 30px; /* Set height */
-    color: #ffffff;
-    font-size: 12px;
-    margin-bottom: 15px;
-    background-color: #333;
 }

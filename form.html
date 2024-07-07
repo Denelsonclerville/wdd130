@@ -10,50 +10,78 @@
 </head>
 <body>
 
-<h1>Formulaire</h1>
+
 
 <form action="submit_quiz.php" method="post">
-  <label for="q1">nom *</label>
-  <input type="text" id="q1" name="q1" placeholder=" tapez votre nom ici" required>
-
-  <label for="q2">Prenom *</label>
-  <input id="q2"name="q2"placeholder="tapez votre prenom ici" required></>
-
-  <label for="q1">email *</label>
-  <input type="email" id="q1" name="q1" placeholder=" 12345678@gmail.com" required>
-
-  <label for="q1">mot_passe *</label>
-  <input type="password" id="q1" name="q1" placeholder="********" required>
+  <h1>Formulaire</h1>
+  <div class="a">
+    <div>
+  <label for="">nom <strong>*</strong></label>
+  <input type="text" id="" name="" placeholder=" tapez votre nom ici" required="required">
   
-  <label for="q1">confirmer *</label>
-  <input type="password" id="q1" name="q1" placeholder=" *******" required>
-  
-  <label for="q3">Sexe *</label>
-  <select id="q3" name="q3" required>
+     </div>
+  <div class="n">
+  <label for="">Prenom<strong>*</strong> </label>
+  <input id=""name=""placeholder="tapez votre prenom ici" required="required"></s>
+   </div>
+
+   <div class="l">
+  <label for="q0">email<strong>*</strong> </label>
+  <input type="email" id="q0" name="q0" placeholder=" 12345678@gmail.com" required>
+   </div>
+   <div class="s">
+  <label for="q2">mot_passe <strong>*</strong></label>
+  <input type="password" id="q2" name="q2" placeholder="********" required="required">
+   </div>
+   <div class="s">
+  <label for="q1">confirmer <strong>*</strong></label>
+  <input type="password" id="q1" name="q1" placeholder=" *******" required="required">
+</div>
+  <div>
+<label for="q">telephone<strong>*</strong></label>
+  <input type="number" id="q" name="telephone" placeholder="12345678" required="required">
+   </div>
+</div>
+<div class="o">
+  <label for="q3">Sexe <strong>*</strong></label>
+  <select id="q3" name="Sexe" required="required">
     <option value="disabled">choissez</option>
-    <option value="">trans</option>
-    <option value="">hetero</option>
-    <option value="">homo</option>
-    <option value="">mas</option>
-    <option value="">fem</option>
-    
+    <option value=""> trans </option>
+    <option value=""> hetero </option>
+    <option value=""> homo </option>
+    <option value=""> mas </option>
+    <option value=""> fem </option>
   </select>
+</div>
 
-  <label for="q4"> age *</label>
-  <div class="container">
-    <div class="content">
-        <p>seulement les chiffres </p>
-    </div>
+<div class="d">
+  <label for="q4"> age <strong>*</strong></label>
+    <div>
+  <input type="number" id="q4" name="age" placeholder="Rentrez votre age" pattern="[0-3][3]">
+   </div>
+</div>
+<label>occupation <strong>*</strong></label>
+<div class="box">
+  <input type="radio" id="lola" name="lola" checked="checked">
+  <span for="lola"> informatique</>
+  <input type="radio" id="lola" name="lola">
+  <span for="lola">programmation</>
+  <input type="radio" id="lola" name="lola" >
+  <span for="lola">football</>
+  <input type="radio" id="lola" name="lola">
+  <span for="lola">medecin</>
+  <input type="radio" id="lola" name="lola">
+  <span for="lola">commerce</>
   </div>
-  <input type="number" id="q4" name="q4" min="0" max="20" placeholder="votre age">
 
-  <label for="q7">occupation *</label>
-  <input type="radio" id="q7" name="q7"  value="">
-
-  <label for="q1">date *</label>
-  <input type="datetime-local" id="q7" name=""  value="">
-
+<!--<div class="cont">
+  <label for="lo">Date d'ouverture<strong>*</strong></label>
+  <input type="datetime-local" id="lo" name="lo">
+</div>
+<div>
   <button type="submit">Submit Quiz</button>
+</div>
+<textarea name="aa" id="" valided="valided"> comment</textarea>-->
 </form>
 
 </body>
