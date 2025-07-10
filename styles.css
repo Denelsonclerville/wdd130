@@ -8,9 +8,20 @@
     margin: 1rem;
     border-radius: 10px;
     padding: 1rem;
-    background-color: #999;
+    background-color:#999;
     color: #fff;
   }
+
+  .box a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.box a:hover {
+  color: #ff4500;
+  text-decoration: underline;
+}
+
   
   nav {
     background-color: steelblue;
