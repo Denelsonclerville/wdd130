@@ -41,9 +41,11 @@ ul  li {
         list-style: none;
         display: inline;
         margin: 60px
-          }     
+        }
+
 ul li a{
-            text-decoration: none;
+        text-decoration: none;
+       }
 /* Hover effect for nav links */
 nav a:hover {
     background-color: 4px 4px 6px rgb(24, 231, 34);
