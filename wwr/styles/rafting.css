@@ -1,69 +1,86 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Define CSS variables */
 :root {
-    --primary-color: steelblue;
-    --secondary-color: #333;
-    --text-color: rgb(116, 168, 134);
+  --primary-color: rgb(12, 141, 247);
+  --secondary-color: #020004;
+  --accent1-color: #13ece5;
+  --accent2-color: #264657; /* light golden yellow */
+  --heading-font: 'Roboto', sans-serif;
+  --body-font: "Merriweather", sans-serif;
 }
 
-/* Body styles */
+
+/* General Body Styling */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--body-font);
     color: var(--secondary-color);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Header styles */
+/* Header Styling */
 .header-container {
     background-color: var(--primary-color);
     padding: 10px;
     margin: 10px;
+    position: relative;
 }
 
-
+/* Rafting Logo Styling */
 .rafting-logo {
-    width: 80px;
+    width: 70px;
     position: absolute;
-    top: 2.5%
+    bottom: 3px;
+    border-radius: 20px;
 }
 
+/* Navigation Styling */
 nav {
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
-    align-items:center;
-    }
+    align-items: center;
+}
 
-ul li {
-        list-style: none;
-        display: inline;
-        margin: 60px
-        }
+nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
 
-ul li a{
-        text-decoration: none;
-       }
-/* Hover effect for nav links */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 100px;
+}
+
+/* Hover Effects */
 nav a:hover {
-    background-color: rgb(24, 231, 34);
+    background-color: var(--accent2-color);
 }
 
 nav a:visited {
-    background-color: rgb(230, 18, 18);
+    background-color: var(--accent1-color);
 }
-/* Main styles */
+
+/* Main Content Styling */
 main {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
 }
 
+/* Hero Section */
 .hero {
     position: relative;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 .hero img {
@@ -74,20 +91,22 @@ main {
 
 .hero h1 {
     position: absolute;
-    top: 10%;
+    width: 70%;
+    height: 0;
+    top: 2%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin: 0;
     font-size: 3em;
-    text-shadow: 2px 2px 4px #473f4281;
+    color: #f4a261;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .hero article {
     position: absolute;
-    top: 210px;
-    right: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    top: 300px;
+    right: 35px;
+    background-color: #f4a261;
     padding: 10px;
     max-width: 90%;
 }
@@ -99,16 +118,18 @@ main {
     margin-left: 10px;
 }
 
-/* Section styles */
+
+/* Section Styling */
 section {
     margin-bottom: 20px;
 }
 
 section h2 {
     color: var(--secondary-color);
+    text-align: center;
 }
 
-/* Adventures section */
+/* Adventures Section Styling */
 .adventures {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -121,43 +142,45 @@ section h2 {
 }
 
 .adventures figure {
-  color: var(--secondary-color);
-  font-size: 14px;
-  padding: 0.5em;
-  margin: 0;
-  text-align: center;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0 0 0 / 69%);
+    color: var(--secondary-color);
+    font-size: 14px;
+    padding: 0.5em;
+    margin: 0;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.archives img {
-  background: linear-gradient(to right, steelblue, lightblue);
-  color: var(--secondary-color);
-  padding: 0.5em;
-  margin: 0;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 50;
-  height: auto;
+.adventures img {
+    width: 100%;
+    height: 150px;
 }
 
+
+/* Archives Section Styling */
 .archives {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
 .archives h2 {
     grid-column: 1 / -1;
     text-align: center;
 }
 
-.adventures img {
-    width: 100%;
+.archives img {
+    background: linear-gradient(to right, steelblue, lightblue);
+    color: var(--secondary-color);
+    padding: 0.5em;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
     height: auto;
 }
 
-
-/* Footer styles */
+/* Footer Styling */
 footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -173,10 +196,8 @@ footer p {
     margin: 1px;
     font-weight: bold;
 }
-footer p a{
-    color: rgb(212, 30, 121);
-}   
 
+/* Social Links Styling */
 .sociallinks {
     display: flex;
     justify-content: flex-end;
@@ -192,13 +213,9 @@ footer p a{
     width: 18px;
     height: 18px;
 }
-.sociallinks a:hover{
-color: rgb(43, 235, 235);
-background: #999;
-transition: all 0.4s ease-in-out;
 
-}
-
-figure .rafting5{
-    height: 40%;
+.sociallinks a:hover {
+    color: rgb(6, 0, 0);
+    background: #999;
+    transition: all 0.4s ease-in-out;
 }
