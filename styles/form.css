@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f1f1;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 10px;
+   
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    background: #5be3e7;
+    border-radius: 5px;
+    box-shadow: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    justify-content: end;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-right: 60px;
+    padding-bottom: 6px;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: 3px solid #ffffff;
+}
+
+.a label {
+    margin-bottom: 100px;
+    font-weight: bold;
+    width: 40%;
+    margin: 4px 4px;
+    display: block;
+}
+
+strong {
+color: #f32626
+}
+
+input {
+    flex-direction: column;
+    padding: 0 15px;
+    border: 1px solid ;
+    border-radius: 7px;
+    height: 40px;
+    outline: none;
+    border: 1px solid grey;
+    margin-right: 35px;
+} 
+.a{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    margin: 10px 40px;
+
+}
+.box{
+    background: #fff ;
+    box-sizing: border-box;
+    border-radius: 7px;
+    display: flex;
+    width: 100%;
+    box-shadow: 1px solid #f3262610;
+    padding: 1px;
+}
+
+.box input{
+    background: #f1f1f1;
+    width: 2%;
+    transform: translate();
+    transition: all 0.4s ;
+    
+}
+
+.box span{
+    display: block;
+    padding: 9px;
+    margin-left: 1px;
+    font-size: 
+
+}
+
+#k label{
+    font-size: bold;
+    margin-right: 400px;
+    padding: 20px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.o  select {
+margin-left: 20px;
+padding: 5px;
+}
+
+.h {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.h label{
+display: flex;
+margin: px;
+padding: 1px;
+}
+
+.h input{
+display: block;
+width: 35%;
+margin-left: 200px;
+padding: 0.9;
+}
+
+input[type="radio"]{
+display: block;
+max-width: 3%;
+margin: 2px;
+
+}
+
+span{
+    display: flex;
+    margin: 3px 0;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+.d{
+    margin: 80px;
+    z-index: 100;
+}
+
+
+.d video, audio{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+input:focus,
+.h input:focus,
+.cont input:focus,
+.box input{
+ outline: none;
+
+}
+.cont{
+    margin: 20px;
+    width: 100%;
+}
+.cont input{
+    margin: -3.5%;
+    margin-left: 200px;
+    width: 10%;
+}
+.pp{
+    width: 100%;
+    display: flex;
+}
+
+.pp input[type="checkbox"]{
+        width: 4%;
+        margin: 2px;
+        padding: 0;    
+}
+
+.pp label{
+    font-size: small;
+    margin: 2.5%;
+}
+button[type="submit"] {
+    background-color:#0c52e9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #000;
+    transform: rotateY('30');
+    transition: 0.9s ;
+}
