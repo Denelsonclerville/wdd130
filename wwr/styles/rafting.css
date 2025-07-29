@@ -3,7 +3,7 @@
 
 :root {
   --primary-color: rgb(12, 141, 247);
-  --secondary-color: #020004;
+  --secondary-color: #fff;
   --accent1-color: #13ece5;
   --accent2-color: #264657; /* light golden yellow */
   --heading-font: 'Roboto', sans-serif;
@@ -194,7 +194,6 @@ footer {
 
 footer p {
     margin: 1px;
-    font-weight: bold;
 }
 
 /* Social Links Styling */
@@ -215,7 +214,7 @@ footer p {
 }
 
 .sociallinks a:hover {
-    color: rgb(6, 0, 0);
+    color: #ffff;
     background: #999;
     transition: all 0.4s ease-in-out;
 }
