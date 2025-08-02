@@ -17,7 +17,7 @@ body {
 header {
   background: #011316;
   padding: 7px 20px;
-  color: rgb(232, 243, 24);
+  color: #fff;
 }
 
 .header-container {
@@ -192,7 +192,7 @@ nav a:hover, nav a:focus {
 
 /* FOOTER */
 footer {
-  background: #f4f4f4;
+  background: #f6f8bc;
   padding: 15px 20px;
   color: #100202;
   display: flex;
