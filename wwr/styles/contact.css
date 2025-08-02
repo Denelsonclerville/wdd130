@@ -42,7 +42,7 @@ nav {
 }
 
 nav a {
-    color: var(--secondary-color);
+    color: #fff;
     text-decoration: none;
 }
 
