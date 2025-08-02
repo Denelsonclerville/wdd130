@@ -4,7 +4,7 @@
 :root {
   --primary-color: #17d6f8;
   --secondary-color: #190303;
-  --accent1-color: #13ece5;
+  --accent1-color: #1349ec;
   --accent2-color: #264657; /* light golden yellow */
   --heading-font: 'Roboto', sans-serif;
   --body-font: "Merriweather", sans-serif;
@@ -62,8 +62,11 @@ ul li a {
 }
 
 /* Hover Effects */
-nav a:hover {
-    background-color: var(--accent2-color);
+nav a:hover, nav a:focus {
+  background-color: #096680;
+  outline: none;
+  padding: 2px;
+  border-radius: 3px;
 }
 
 nav a:visited {

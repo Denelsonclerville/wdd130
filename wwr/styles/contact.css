@@ -64,10 +64,8 @@ ul li a {
 nav a:hover, nav a:focus {
   background-color: #096680;
   outline: none;
-}
-
-nav a:visited {
-    background-color: rgba(226, 43, 43, 0.547);
+  padding: 3px;
+  border-radius: 4px;
 }
 
 /* Employee Section */
