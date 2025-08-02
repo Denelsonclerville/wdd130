@@ -3,7 +3,7 @@
 
 :root {
   --primary-color: rgb(12, 141, 247);
-  --secondary-color: #fff;
+  --secondary-color: #190303;
   --accent1-color: #13ece5;
   --accent2-color: #264657; /* light golden yellow */
   --heading-font: 'Roboto', sans-serif;
@@ -160,8 +160,9 @@ section h2 {
 /* Archives Section Styling */
 .archives {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 20px;
+    color: #264657;
 }
 
 .archives h2 {
@@ -170,7 +171,6 @@ section h2 {
 }
 
 .archives img {
-    background: linear-gradient(to right, steelblue, lightblue);
     color: var(--secondary-color);
     padding: 0.5em;
     margin: 0;
