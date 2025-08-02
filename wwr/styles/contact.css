@@ -1,9 +1,9 @@
 /* Base Styles */
 :root {
-    --primary-color: #1abc9c; /* New primary color (Teal) */
+    --primary-color: #02120e; /* New primary color (Teal) */
     --secondary-color: #ffff; /* New secondary color (Orange) */
-    --text-color: #2c3e50; /* Darker text color for readability */
-    --background-color: #ecf0f1; /* Light gray background */
+    --text-color: #3035ca; /* Darker text color for readability */
+    --background-color: #010c0f; /* Light gray background */
     --font-family: 'Roboto', sans-serif;
 }
 
@@ -98,7 +98,7 @@ nav a:hover, nav a:focus {
 
 .employee-description {
     font-size: 14px;
-    color: #666;
+    color: var(--primary-color);
 }
 
 /* Contact Section */
@@ -140,7 +140,7 @@ nav a:hover, nav a:focus {
     position: absolute; /* Pozisyon absoli pou l kouvri imaj la */
     top: 900px; /* Mete fòm lan nan mitan kontenè a */
     left: 60%; 
-    background-color: rgba(0,0,0,0.6);
+    background-color: var(--primary-color);
     padding: 3px;
     border-radius: 4px;
     z-index: 10;
