@@ -192,9 +192,9 @@ nav a:hover, nav a:focus {
 
 /* FOOTER */
 footer {
-  background: #011316;
+  background: #f4f4f4;
   padding: 15px 20px;
-  color: #f4f4f4;
+  color: #100202;
   display: flex;
   justify-content: space-between;
   align-items: center;
