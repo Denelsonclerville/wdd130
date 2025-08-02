@@ -15,9 +15,9 @@ body {
 
 /* HEADER */
 header {
-  background: #17d6f8;
+  background: #011316;
   padding: 7px 20px;
-  color: white;
+  color: rgb(232, 243, 24);
 }
 
 .header-container {
@@ -74,7 +74,7 @@ nav a:hover, nav a:focus {
   top: 15%;
   left: 40%;
   transform: translate(-50%, -50%);
-  color: rgb(222, 217, 54);
+  color: #f4f4f4;
   font-size: 3rem;
   text-align: center;
   pointer-events: none;
@@ -192,9 +192,9 @@ nav a:hover, nav a:focus {
 
 /* FOOTER */
 footer {
-  background: #17d6f8;
+  background: #011316;
   padding: 15px 20px;
-  color: white;
+  color: #f4f4f4;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -217,20 +217,3 @@ footer a {
   height: 18px;
 }
 
-/* RESPONSIVE */
-@media (max-width: 700px) {
-  .header-container {
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
-  nav {
-    justify-content: center;
-  }
-  .newsletter form {
-    grid-template-columns: 1fr;
-  }
-  footer {
-    flex-direction: column;
-    text-align: center;
-  }
-}
