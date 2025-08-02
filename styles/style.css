@@ -18,11 +18,13 @@
 }
 
 .box a:hover {
-  color: #ff4500;
+  color: #999;
   text-decoration: underline;
+  padding: 2px;
+  border-radius: 3px;
 }
 
-  
+
   nav {
     background-color: steelblue;
     padding: 1rem;
@@ -37,7 +39,7 @@
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #333;
+    color: #fff;
   }
   
   nav a:hover {
