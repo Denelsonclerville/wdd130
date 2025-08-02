@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --primary-color: rgb(12, 141, 247);
+  --primary-color: #17d6f8;
   --secondary-color: #190303;
   --accent1-color: #13ece5;
   --accent2-color: #264657; /* light golden yellow */
@@ -22,7 +22,8 @@ body {
 
 /* Header Styling */
 .header-container {
-    background-color: var(--primary-color);
+    background: var(--primary-color);
+    color: white;
     padding: 10px;
     margin: 10px;
     position: relative;

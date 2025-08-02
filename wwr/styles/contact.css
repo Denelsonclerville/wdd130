@@ -1,7 +1,7 @@
 /* Base Styles */
 :root {
     --primary-color: #1abc9c; /* New primary color (Teal) */
-    --secondary-color: #e67e22; /* New secondary color (Orange) */
+    --secondary-color: #ffff; /* New secondary color (Orange) */
     --text-color: #2c3e50; /* Darker text color for readability */
     --background-color: #ecf0f1; /* Light gray background */
     --font-family: 'Roboto', sans-serif;
