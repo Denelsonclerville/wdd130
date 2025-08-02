@@ -147,11 +147,11 @@ nav a:hover, nav a:focus {
 }
 
 .check{
-    color: blue;
+    color: rgb(0, 255, 140);
 }
 
 .contact-form h2 {
-    color: blue;
+    color: rgba(248, 248, 252, 0.748);
     margin-bottom: 8px;
     text-align: center;
 }
@@ -226,13 +226,13 @@ button:hover {
 
 /* Footer */
 footer {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: bisque;
+    color: var(--primary-color);
     padding: 10px;
     text-align: center;
     display: flex;
     justify-content: space-between;
-    border-top: 1px dotted #000;
+    border-top: 1px dotted #ebe5e5;
     margin: 10px;
 }
 
