@@ -1,9 +1,9 @@
 /* Base Styles */
 :root {
-    --primary-color: #02120e; /* New primary color (Teal) */
-    --secondary-color: #ffff; /* New secondary color (Orange) */
-    --text-color: #3035ca; /* Darker text color for readability */
-    --background-color: #010c0f; /* Light gray background */
+    --primary-color: #454540; 
+    --secondary-color: #ffff; 
+    --text-color: #3792ab; 
+    --background-color: #ffc328;
     --font-family: 'Roboto', sans-serif;
 }
 
@@ -20,7 +20,7 @@ body {
 
 /* Header Styling */
 .header-container {
-    background-color: var(--primary-color);
+    background-color: var(--background-color);
     padding: 10px;
     margin: 10px;
     position: relative;
@@ -42,7 +42,7 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ ul li a {
 
 /* Hover Effects */
 nav a:hover, nav a:focus {
-  background-color: #096680;
+  background-color: var(--background-color);
   outline: none;
   padding: 3px;
   border-radius: 4px;
@@ -147,7 +147,7 @@ nav a:hover, nav a:focus {
 }
 
 .check{
-    color: rgb(0, 255, 140);
+    color: #065577;
 }
 
 .contact-form h2 {
@@ -226,7 +226,7 @@ button:hover {
 
 /* Footer */
 footer {
-    background-color: bisque;
+    background-color: var(--background-color);
     color: var(--primary-color);
     padding: 10px;
     text-align: center;

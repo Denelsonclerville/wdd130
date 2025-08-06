@@ -15,9 +15,9 @@ input:focus {
 }
 
 header {
-  background: #01131672;
+  background: #ffc328;
   padding: 7px 20px;
-  color: #fff;
+  color: #454540;
 }
 
 .header-container {
@@ -250,7 +250,7 @@ form.newsletter-form button:focus {
 
 /* ===== Footer ===== */
 footer {
-  background: #f6f8bc;
+  background: #ffc328;
   padding: 15px 20px;
   color: #100202;
   display: flex;
