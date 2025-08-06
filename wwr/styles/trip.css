@@ -1,0 +1,164 @@
+/* Basic Reset and font */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffef4;
+  color: #100202;
+  line-height: 1.6;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #d8e8e0;
+  flex-wrap: wrap;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #0a3950;
+  font-weight: 600;
+}
+
+nav a[aria-current="page"] {
+  text-decoration: underline;
+}
+
+/* Main container */
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+/* Trip Descriptions Grid */
+.trip-descriptions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+
+.trip-card {
+  background-color: #f6f8bc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.trip-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.trip-info {
+  padding: 1rem 1.5rem;
+}
+
+.trip-info h3 {
+  margin-top: 0;
+  color: #254e58;
+}
+
+/* CTA Section */
+.cta-contact {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 1rem;
+  background-color: #a3d2ca;
+  border-radius: 10px;
+}
+
+.cta-contact h2 {
+  margin-bottom: 0.5rem;
+  color: #0a3950;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #0a3950;
+  color: #fff;
+  padding: 14px 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+  background-color: #254e58;
+  outline: none;
+}
+
+/* Trip Summary Table */
+.trip-summary {
+  margin-bottom: 4rem;
+}
+
+.trip-summary h2 {
+  color: #0a3950;
+  margin-bottom: 1rem;
+}
+
+.trip-summary table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.trip-summary th,
+.trip-summary td {
+  border: 1px solid #ccc;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.trip-summary th {
+  background-color: #f6f8bc;
+  font-weight: 700;
+}
+
+.trip-summary tbody tr:nth-child(even) {
+  background-color: #e7f1f0;
+}
+
+/* Footer */
+footer {
+  background: #f6f8bc;
+  padding: 15px 20px;
+  color: #100202;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  gap: 10px;
+}
+
+footer a {
+  text-decoration: underline;
+  color: #100202;
+}
+
+.sociallinks {
+  display: flex;
+  gap: 15px;
+}
+
+.sociallinks img {
+  width: 18px;
+  height: 18px;
+}
