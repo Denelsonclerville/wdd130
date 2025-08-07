@@ -1,182 +1,106 @@
-/* RESET + BASE */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
+/* Import selected fonts from Google Fonts API */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #333;
+  --secondary-color: #4682b447;
+  --accent1-color: #4da1a9;
+  --accent2-color: #0cdef1;
+  --additional-accent-color: #2e5077;
+  --heading-font: 'Roboto', sans-serif;
+  --nav-background-color: #cdcdce;
+  --nav-hover-link-color: #b81c1c0c;
+  --nav-hover-background-color: #0a90e9;
 }
 
-/* HEADER */
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 1rem 2rem;
-  margin: 0.5rem 1rem;
-  display: flex;
-  justify-content: space-between;
+
+/* Apply font families to different elements */
+h2, h3, h4, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  padding: 0.9%;
+  margin: 0 auto;
+}
+
+p, ul{
+  font-family: var(--paragraph-font);
+  color: #000;
+  margin:  0 10%;
+  margin-left: 20px;
+  overflow: hidden;
+}
+body{
+    font-family: var(--paragraph-font);
+    padding: 0 auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.header-container {
+  height: 10vh;
+  padding: 5px;
+  background-color: var(--nav-background-color);
+  justify-content: space-around;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.4);
-  z-index: 10;
+
 }
-.logo {
-  height: 60px;
-}
+
+
 nav {
+  font-family: var(--heading-font);
+  padding: 10px;
   display: flex;
-  gap: 12rem;
+  justify-content: space-around;
+  gap: 50px;
+  color: var(--primary-color);
 }
+
 nav a {
-  color: ;
-  text-decoration: none;
   font-weight: bold;
-  font-size: 1rem;
-}
-nav a:hover {
-  color: #e6c49a;
-}
-
-/* HERO SECTION */
-.hero {
-  width: 1200px;
-  height: 80vh;
-  background-image: url('/wwr/images/rafting\ header.webp');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
-}
-.hero-content {
-  padding: 2rem 3rem;
-  border-radius: 8px;
-}
-.hero h1 {
-  font-size: 3rem;
-  font-family: 'Brush Script MT', cursive;
-  color: #fcd5b5;
-}
-.hero p {
-  font-size: 1.2rem;
-  color: white;
-  margin-top: 0.5rem;
-}
-.btn {
-  margin-top: 1.5rem;
-  padding: 0.8rem 1.5rem;
-  background-color: #e6c49a;
-  color: black;
   text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  display: inline-block;
-}
-.btn:hover {
-  background-color: #f4d4a3;
-}
-
-/* ACTIVITIES */
-.activities {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  padding: 4rem 2rem;
-  background-color: #f9f9f9;
-  flex-wrap: wrap;
-}
-.activity {
-  text-align: center;
-  max-width: 200px;
-}
-.activity img {
-  width: 100%;
-  height: 180px;
-  border: 5px solid #e1cdb1;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  padding: 5px 10px;
   border-radius: 4px;
-}
-.label {
-  margin-top: 1rem;
-}
-.label p {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #333;
+  transition: background-color 0.3s ease;
 }
 
-/* CTA */
-.cta {
-  margin: 4rem 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #d7bfa5;
-  padding: 4rem 2rem;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-.cta img {
-  width: 500px;
-  height: 100vh;
-  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
-  border-radius: 4px;
-}
-.cta-text {
-  position: absolute;
-  right: 30px;
-  background-color: #6b7261;
-  color: white;
-  padding: 1rem 2rem;
-  height: 55vh;
-  width: 500px;
-  border-radius: 6px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
-  text-align: center;
-}
-.cta-text h2 {
-  margin-bottom: 1rem;
-  font-size: 1.8rem;
-}
-.cta-text p {
-  margin-bottom: 1.5rem;
-  font-size: 1rem;
-  line-height: 1.5;
+nav a.active,
+nav a:hover,
+nav a:focus {
+  color: #fff;
+  border-bottom: 3px solid #f77f00;
+  background-color: #096680;
+  outline: none;
 }
 
-/* FOOTER */
-footer {
-  background-color: #6b7261;
-  color: #e7c6a5;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.5rem 2rem;
-  flex-wrap: wrap;
+.logo {
+  height: 50px;
+  width: auto;
 }
-.footer-text {
-  display: flex;
-  gap: 12rem;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.footer-text a {
-  color: #e7c6a5;
-  text-decoration: none;
-  font-weight: 500;
-}
-.social-icons a img {
-  width: 20px;
-  height: 20px;
-  margin-left: 10px;
-  transition: transform 0.3s ease;
-}
-.social-icons a img:hover {
-  transform: scale(1.1);
-}
+
+  a:visited{
+    color: var(--nav-link-color);
+  }
+
+  .wireframe{
+    justify-content: center;
+    align-items: center;
+    margin: 0 20%;
+    margin-left: 60px;
+    max-width: 90%;
+  }
+  .wireframe h3{
+    text-decoration: underline;
+  }
+
+  footer {
+    margin-top: 15px;
+    border-top: 1px dotted #000;
+    text-align: center;
+    color: #fff;
+    background-color: var(--nav-background-color);
+   padding: 15px 20px;
+   justify-content: space-between;
+   align-items: center;
+
+  }
+   
