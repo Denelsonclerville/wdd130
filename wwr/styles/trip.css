@@ -1,64 +1,288 @@
-/* Basic Reset and font */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fffef4;
-  color: #100202;
-  line-height: 1.6;
+/* ==================== GOOGLE FONTS ==================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* ==================== ROOT VARIABLES ==================== */
+:root {
+  --primary-color: #333;
+  --secondary-color: #065577;
+  --accent-color: #f77f00;
+  --heading-background-color: #cdcdce;
+  --footer-background-color: #3792ab;
+  --text-color: #414142;
+  --link-color: #0d43f6;
+
+  --heading-font: 'Roboto', sans-serif;
+  --body-font: 'Merriweather', serif;
 }
 
-/* Header */
+/* ==================== GLOBAL STYLES ==================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font);
+  color: var(--text-color);
+}
+
+/* ==================== HEADER ==================== */
+header {
+  background: var(--heading-background-color);
+  padding: 7px 20px;
+}
+
 .header-container {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 1fr;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #d8e8e0;
-  flex-wrap: wrap;
+  gap: 20px;
+}
+
+header img {
+  width: 100px;
+  border-radius: 10%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
 }
 
 nav a {
-  margin-left: 1.5rem;
+  font-weight: bold;
   text-decoration: none;
-  color: #0a3950;
-  font-weight: 600;
+  padding: 5px 10px;
+  color: var(--primary-color);
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
-nav a[aria-current="page"] {
-  text-decoration: underline;
+nav a.active,
+nav a:hover,
+nav a:focus {
+  color: white;
+  background-color: #096680;
+  border-bottom: 3px solid var(--accent-color);
+  outline: none;
 }
 
-/* Main container */
+/* ==================== MAIN WRAPPER ==================== */
 main {
   max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 2rem;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-/* Trip Descriptions Grid */
+/* ==================== HERO SECTION ==================== */
+.hero {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 3em;
+  color: #f4a261;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.hero article {
+  position: absolute;
+  top: 300px;
+  right: 35px;
+  background-color: #f4a261;
+  padding: 10px;
+  max-width: 90%;
+}
+
+.hero article img {
+  float: right;
+  width: 100px;
+  margin-left: 10px;
+}
+
+/* ==================== SECTION TITLES ==================== */
+section h2 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+/* ==================== NEWSLETTER ==================== */
+.newsletter {
+  background-color: #f1f1f1;
+  padding: 2.5rem 1rem;
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+  color: #003049;
+  margin-bottom: 1rem;
+}
+
+form.newsletter-form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form.newsletter-form label {
+  font-weight: bold;
+  color: #333;
+}
+
+form.newsletter-form input[type="text"],
+form.newsletter-form input[type="email"] {
+  padding: 0.75rem;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form.newsletter-form input:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+form.newsletter-form button {
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  background-color: #003049;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form.newsletter-form button:hover,
+form.newsletter-form button:focus {
+  background-color: var(--accent-color);
+  color: #003049;
+}
+
+/* ==================== CALL TO ACTION ==================== */
+.cta,
+.cta-contact {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.cta {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.cta-contact {
+  background-color: #a3d2ca;
+  color: #0a3950;
+}
+
+.cta h2,
+.cta-contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta p {
+  max-width: 600px;
+  margin: 0 auto 1.2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.85rem 1.8rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-color: #003049;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+  background-color: white;
+  color: var(--accent-color);
+  outline: none;
+}
+
+/* ==================== ABOUT GRID ==================== */
+.about-grid {
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.offer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.grid-item {
+  background-color: #eaeaea;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.grid-item img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.grid-item h3 {
+  color: #003049;
+  margin-top: 1rem;
+}
+
+.grid-item p {
+  font-size: 1rem;
+  color: #444;
+}
+
+/* ==================== TRIP DESCRIPTIONS ==================== */
 .trip-descriptions {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  margin-bottom: 3rem;
+  margin: 3rem 0;
 }
-
 
 .trip-card {
   background-color: #f6f8bc;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  display: flex;
-  flex-direction: column;
   text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .trip-card img {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 170px;
+  object-fit: cover;
 }
 
 .trip-info {
@@ -66,51 +290,13 @@ main {
 }
 
 .trip-info h3 {
-  margin-top: 0;
+  margin: 0;
   color: #254e58;
 }
 
-/* CTA Section */
-.cta-contact {
-  text-align: center;
-  margin-bottom: 3rem;
-  padding: 2rem 1rem;
-  background-color: #a3d2ca;
-  border-radius: 10px;
-}
-
-.cta-contact h2 {
-  margin-bottom: 0.5rem;
-  color: #0a3950;
-}
-
-.cta-button {
-  display: inline-block;
-  margin-top: 1rem;
-  background-color: #0a3950;
-  color: #fff;
-  padding: 14px 30px;
-  font-size: 1.2rem;
-  font-weight: 700;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button:hover,
-.cta-button:focus {
-  background-color: #254e58;
-  outline: none;
-}
-
-/* Trip Summary Table */
+/* ==================== TRIP SUMMARY TABLE ==================== */
 .trip-summary {
   margin-bottom: 4rem;
-}
-
-.trip-summary h2 {
-  color: #0a3950;
-  margin-bottom: 1rem;
 }
 
 .trip-summary table {
@@ -128,37 +314,41 @@ main {
 
 .trip-summary th {
   background-color: #f6f8bc;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .trip-summary tbody tr:nth-child(even) {
   background-color: #e7f1f0;
 }
 
-/* Footer */
-footer {
-  background: #f6f8bc;
-  padding: 15px 20px;
-  color: #100202;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  font-size: 0.9rem;
-  gap: 10px;
+/* ==================== ADVENTURES GALLERY ==================== */
+.adventures {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
 }
 
-footer a {
-  text-decoration: underline;
-  color: #100202;
+.adventures figure {
+  text-align: center;
+  font-size: 14px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.sociallinks {
-  display: flex;
-  gap: 15px;
+.adventures img {
+  width: 100%;
+  height: 150px;
 }
 
-.sociallinks img {
-  width: 18px;
-  height: 18px;
+/* ==================== HISTORY / ARCHIVES SECTION ==================== */
+.archives {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  color: #264657;
 }
+
+.archives img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,

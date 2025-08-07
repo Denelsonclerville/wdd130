@@ -1,0 +1,106 @@
+/* Import selected fonts from Google Fonts API */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #333;
+  --secondary-color: #4682b447;
+  --accent1-color: #4da1a9;
+  --accent2-color: #0cdef1;
+  --additional-accent-color: #2e5077;
+  --heading-font: 'Roboto', sans-serif;
+  --nav-background-color: #cdcdce;
+  --nav-hover-link-color: #b81c1c0c;
+  --nav-hover-background-color: #0a90e9;
+}
+
+
+/* Apply font families to different elements */
+h2, h3, h4, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  padding: 0.9%;
+  margin: 0 auto;
+}
+
+p, ul{
+  font-family: var(--paragraph-font);
+  color: #000;
+  margin:  0 10%;
+  margin-left: 20px;
+  overflow: hidden;
+}
+body{
+    font-family: var(--paragraph-font);
+    padding: 0 auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.header-container {
+  height: 10vh;
+  padding: 5px;
+  background-color: var(--nav-background-color);
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+nav {
+  font-family: var(--heading-font);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  color: var(--primary-color);
+}
+
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav a.active,
+nav a:hover,
+nav a:focus {
+  color: #fff;
+  border-bottom: 3px solid #f77f00;
+  background-color: #096680;
+  outline: none;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+  a:visited{
+    color: var(--nav-link-color);
+  }
+
+  .wireframe{
+    justify-content: center;
+    align-items: center;
+    margin: 0 20%;
+    margin-left: 60px;
+    max-width: 90%;
+  }
+  .wireframe h3{
+    text-decoration: underline;
+  }
+
+  footer {
+    margin-top: 15px;
+    border-top: 1px dotted #000;
+    text-align: center;
+    color: #fff;
+    background-color: var(--nav-background-color);
+   padding: 15px 20px;
+   justify-content: space-between;
+   align-items: center;
+
+  }
+   
