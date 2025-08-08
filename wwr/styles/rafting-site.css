@@ -232,23 +232,23 @@ nav a:focus {
 
 .cta-text {
   position: absolute;
-  left: 380px;
-  top: 1210px;
+  left: 410px;
+  top: 1240px;
   background-color: var(--cta-overlay);
   text-align: center;
   color: var(--text-light);
-  padding: 2rem;
+  padding: 2rem 0;
   width: 600px;
   height: 55vh;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .cta-text h2,
-.cta-text p,
-.cta-text a {
+.cta-text p {
   margin-bottom: 3rem;
   font-size: 1rem;
   line-height: 1.5;
+  color: var(--text-light);
 }
 
 /*  Footer */
@@ -256,9 +256,9 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #003049;
+  background-color: var(--nav-background-color);
   color: var(--text-light);
-  padding: 1.5rem 2rem;
+  padding: 0 2rem;
   flex-wrap: wrap;
 }
 
@@ -274,7 +274,7 @@ footer {
 }
 
 .footer-links a {
-  color: var(--text-light);
+  color: var(--nav-hover-background-color);
   text-decoration: none;
 }
 

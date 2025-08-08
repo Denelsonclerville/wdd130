@@ -252,11 +252,6 @@ form.newsletter-form button:focus {
   padding: 2.5rem 1rem;
 }
 
-.cta-text {
-  position:  absolute;
-  top: 4200px;
-  padding: 29rem 0;
-}
 
 .cta h2 {
   font-size: 2.2rem;
