@@ -586,7 +586,7 @@ button:hover {
   background-color: var(--secondary-color);
 }
 
-/* Newsletter Section Styling (Moved to Image) */
+/* Newsletter  */
 .contact-form .newsletter-group {
   display: flex;
   justify-content: center;
@@ -617,7 +617,6 @@ button:hover {
   outline: none;
 }
 
-/* --- Footer Section (Moved to the end) --- */
 footer {
   background-color: var(--heading-background-color);
   padding: 15px 20px;
