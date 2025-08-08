@@ -252,6 +252,12 @@ form.newsletter-form button:focus {
   padding: 2.5rem 1rem;
 }
 
+.cta-text {
+  position:  absolute;
+  top: 4200px;
+  padding: 29rem 0;
+}
+
 .cta h2 {
   font-size: 2.2rem;
   margin-bottom: 0.6rem;
@@ -471,7 +477,7 @@ form.newsletter-form button:focus {
 /* Contact Section */
 .address {
   position: absolute;
-  top: 2000px;
+  top: 1900px;
   left: 20%;
   transform: translate(-50%, -50%);
   padding: 20px;
