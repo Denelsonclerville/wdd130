@@ -10,12 +10,12 @@
 
 :root {
   --primary-color: #333;
-  --secondary-color: #4682b447;
+  --secondary-color: #2f8bbd;
   --accent1-color: #4da1a9;
   --accent2-color: #0cdef1;
   --nav-background-color: #cdcdce;
   --nav-hover-link-color: #b81c1c0c;
-  --nav-hover-background-color: #333;
+  --nav-hover-background-color:hsl(0deg 7.69% 6.61%);
 
   --text-dark: #000;
   --text-light: #fff;
@@ -104,6 +104,7 @@ nav a {
   transition: background-color 0.3s ease;
 }
 
+
 nav a.active,
 nav a:hover,
 nav a:focus {
@@ -146,10 +147,11 @@ nav a:focus {
   margin-bottom: 0.5rem;
 }
 
-.hero p {
+.hero p, .hero a {
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
   color: #fff;
+  text-decoration: none;
 }
 
 /*  Buttons (generic) */
@@ -253,42 +255,41 @@ nav a:focus {
 
 /*  Footer */
 footer {
+  background-color: var(--nav-background-color);
+  padding: 10px 20px;
+  color: var(--primary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--nav-background-color);
-  color: var(--text-light);
-  padding: 0 2rem;
   flex-wrap: wrap;
+  font-size: 0.9rem;
+  gap: 10px;
 }
 
-.footer-left {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.footer-links {
-  display: flex;
-  gap: 1rem;
+footer a {
+  text-decoration: none;
+  color: #003049;
 }
 
 .footer-links a {
-  color: var(--nav-hover-background-color);
-  text-decoration: none;
+  margin: 0 2rem;
 }
 
-.footer-links a:hover {
+.footer-links a:hover{
   text-decoration: underline;
+  background: var(--secondary-color);
+  color: #fff;
+  padding: 0.6rem;
+  border-radius: 4px;
 }
 
 .sociallinks {
   display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
+  gap: 15px;
 }
 
 .sociallinks img {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
 }
+
